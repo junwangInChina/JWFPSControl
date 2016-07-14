@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAF353181D377DAA005CAFD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF353171D377DAA005CAFD2 /* main.m */; };
+		DAF3531B1D377DAA005CAFD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF3531A1D377DAA005CAFD2 /* AppDelegate.m */; };
+		DAF3531E1D377DAA005CAFD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF3531D1D377DAA005CAFD2 /* ViewController.m */; };
+		DAF353211D377DAA005CAFD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF3531F1D377DAA005CAFD2 /* Main.storyboard */; };
+		DAF353231D377DAA005CAFD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF353221D377DAA005CAFD2 /* Assets.xcassets */; };
+		DAF353261D377DAA005CAFD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF353241D377DAA005CAFD2 /* LaunchScreen.storyboard */; };
+		DAF353311D377DAA005CAFD2 /* JWFPSControlDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF353301D377DAA005CAFD2 /* JWFPSControlDemoTests.m */; };
+		DAF3533C1D377DAA005CAFD2 /* JWFPSControlDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF3533B1D377DAA005CAFD2 /* JWFPSControlDemoUITests.m */; };
+		DAF3534C1D377DCF005CAFD2 /* JWFPSControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF3534B1D377DCF005CAFD2 /* JWFPSControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAF3532D1D377DAA005CAFD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAF3530B1D377DAA005CAFD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF353121D377DAA005CAFD2;
+			remoteInfo = JWFPSControlDemo;
+		};
+		DAF353381D377DAA005CAFD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAF3530B1D377DAA005CAFD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF353121D377DAA005CAFD2;
+			remoteInfo = JWFPSControlDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAF353131D377DAA005CAFD2 /* JWFPSControlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWFPSControlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF353171D377DAA005CAFD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAF353191D377DAA005CAFD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAF3531A1D377DAA005CAFD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAF3531C1D377DAA005CAFD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAF3531D1D377DAA005CAFD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAF353201D377DAA005CAFD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAF353221D377DAA005CAFD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAF353251D377DAA005CAFD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAF353271D377DAA005CAFD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAF3532C1D377DAA005CAFD2 /* JWFPSControlDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWFPSControlDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF353301D377DAA005CAFD2 /* JWFPSControlDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWFPSControlDemoTests.m; sourceTree = "<group>"; };
+		DAF353321D377DAA005CAFD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAF353371D377DAA005CAFD2 /* JWFPSControlDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWFPSControlDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF3533B1D377DAA005CAFD2 /* JWFPSControlDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWFPSControlDemoUITests.m; sourceTree = "<group>"; };
+		DAF3533D1D377DAA005CAFD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAF3534A1D377DCF005CAFD2 /* JWFPSControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWFPSControl.h; sourceTree = "<group>"; };
+		DAF3534B1D377DCF005CAFD2 /* JWFPSControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWFPSControl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAF353101D377DAA005CAFD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF353291D377DAA005CAFD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF353341D377DAA005CAFD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAF3530A1D377DAA005CAFD2 = {
+			isa = PBXGroup;
+			children = (
+				DAF353151D377DAA005CAFD2 /* JWFPSControlDemo */,
+				DAF3532F1D377DAA005CAFD2 /* JWFPSControlDemoTests */,
+				DAF3533A1D377DAA005CAFD2 /* JWFPSControlDemoUITests */,
+				DAF353141D377DAA005CAFD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAF353141D377DAA005CAFD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAF353131D377DAA005CAFD2 /* JWFPSControlDemo.app */,
+				DAF3532C1D377DAA005CAFD2 /* JWFPSControlDemoTests.xctest */,
+				DAF353371D377DAA005CAFD2 /* JWFPSControlDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAF353151D377DAA005CAFD2 /* JWFPSControlDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DAF353491D377DC3005CAFD2 /* JWFPSControl */,
+				DAF353191D377DAA005CAFD2 /* AppDelegate.h */,
+				DAF3531A1D377DAA005CAFD2 /* AppDelegate.m */,
+				DAF3531C1D377DAA005CAFD2 /* ViewController.h */,
+				DAF3531D1D377DAA005CAFD2 /* ViewController.m */,
+				DAF3531F1D377DAA005CAFD2 /* Main.storyboard */,
+				DAF353221D377DAA005CAFD2 /* Assets.xcassets */,
+				DAF353241D377DAA005CAFD2 /* LaunchScreen.storyboard */,
+				DAF353271D377DAA005CAFD2 /* Info.plist */,
+				DAF353161D377DAA005CAFD2 /* Supporting Files */,
+			);
+			path = JWFPSControlDemo;
+			sourceTree = "<group>";
+		};
+		DAF353161D377DAA005CAFD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAF353171D377DAA005CAFD2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAF3532F1D377DAA005CAFD2 /* JWFPSControlDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAF353301D377DAA005CAFD2 /* JWFPSControlDemoTests.m */,
+				DAF353321D377DAA005CAFD2 /* Info.plist */,
+			);
+			path = JWFPSControlDemoTests;
+			sourceTree = "<group>";
+		};
+		DAF3533A1D377DAA005CAFD2 /* JWFPSControlDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAF3533B1D377DAA005CAFD2 /* JWFPSControlDemoUITests.m */,
+				DAF3533D1D377DAA005CAFD2 /* Info.plist */,
+			);
+			path = JWFPSControlDemoUITests;
+			sourceTree = "<group>";
+		};
+		DAF353491D377DC3005CAFD2 /* JWFPSControl */ = {
+			isa = PBXGroup;
+			children = (
+				DAF3534A1D377DCF005CAFD2 /* JWFPSControl.h */,
+				DAF3534B1D377DCF005CAFD2 /* JWFPSControl.m */,
+			);
+			path = JWFPSControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAF353121D377DAA005CAFD2 /* JWFPSControlDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF353401D377DAA005CAFD2 /* Build configuration list for PBXNativeTarget "JWFPSControlDemo" */;
+			buildPhases = (
+				DAF3530F1D377DAA005CAFD2 /* Sources */,
+				DAF353101D377DAA005CAFD2 /* Frameworks */,
+				DAF353111D377DAA005CAFD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWFPSControlDemo;
+			productName = JWFPSControlDemo;
+			productReference = DAF353131D377DAA005CAFD2 /* JWFPSControlDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAF3532B1D377DAA005CAFD2 /* JWFPSControlDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF353431D377DAA005CAFD2 /* Build configuration list for PBXNativeTarget "JWFPSControlDemoTests" */;
+			buildPhases = (
+				DAF353281D377DAA005CAFD2 /* Sources */,
+				DAF353291D377DAA005CAFD2 /* Frameworks */,
+				DAF3532A1D377DAA005CAFD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAF3532E1D377DAA005CAFD2 /* PBXTargetDependency */,
+			);
+			name = JWFPSControlDemoTests;
+			productName = JWFPSControlDemoTests;
+			productReference = DAF3532C1D377DAA005CAFD2 /* JWFPSControlDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAF353361D377DAA005CAFD2 /* JWFPSControlDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF353461D377DAA005CAFD2 /* Build configuration list for PBXNativeTarget "JWFPSControlDemoUITests" */;
+			buildPhases = (
+				DAF353331D377DAA005CAFD2 /* Sources */,
+				DAF353341D377DAA005CAFD2 /* Frameworks */,
+				DAF353351D377DAA005CAFD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAF353391D377DAA005CAFD2 /* PBXTargetDependency */,
+			);
+			name = JWFPSControlDemoUITests;
+			productName = JWFPSControlDemoUITests;
+			productReference = DAF353371D377DAA005CAFD2 /* JWFPSControlDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAF3530B1D377DAA005CAFD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = wangjun;
+				TargetAttributes = {
+					DAF353121D377DAA005CAFD2 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					DAF3532B1D377DAA005CAFD2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DAF353121D377DAA005CAFD2;
+					};
+					DAF353361D377DAA005CAFD2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DAF353121D377DAA005CAFD2;
+					};
+				};
+			};
+			buildConfigurationList = DAF3530E1D377DAA005CAFD2 /* Build configuration list for PBXProject "JWFPSControlDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAF3530A1D377DAA005CAFD2;
+			productRefGroup = DAF353141D377DAA005CAFD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAF353121D377DAA005CAFD2 /* JWFPSControlDemo */,
+				DAF3532B1D377DAA005CAFD2 /* JWFPSControlDemoTests */,
+				DAF353361D377DAA005CAFD2 /* JWFPSControlDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAF353111D377DAA005CAFD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF353261D377DAA005CAFD2 /* LaunchScreen.storyboard in Resources */,
+				DAF353231D377DAA005CAFD2 /* Assets.xcassets in Resources */,
+				DAF353211D377DAA005CAFD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF3532A1D377DAA005CAFD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF353351D377DAA005CAFD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAF3530F1D377DAA005CAFD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF3534C1D377DCF005CAFD2 /* JWFPSControl.m in Sources */,
+				DAF3531E1D377DAA005CAFD2 /* ViewController.m in Sources */,
+				DAF3531B1D377DAA005CAFD2 /* AppDelegate.m in Sources */,
+				DAF353181D377DAA005CAFD2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF353281D377DAA005CAFD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF353311D377DAA005CAFD2 /* JWFPSControlDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF353331D377DAA005CAFD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF3533C1D377DAA005CAFD2 /* JWFPSControlDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAF3532E1D377DAA005CAFD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF353121D377DAA005CAFD2 /* JWFPSControlDemo */;
+			targetProxy = DAF3532D1D377DAA005CAFD2 /* PBXContainerItemProxy */;
+		};
+		DAF353391D377DAA005CAFD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF353121D377DAA005CAFD2 /* JWFPSControlDemo */;
+			targetProxy = DAF353381D377DAA005CAFD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAF3531F1D377DAA005CAFD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAF353201D377DAA005CAFD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAF353241D377DAA005CAFD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAF353251D377DAA005CAFD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAF3533E1D377DAA005CAFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAF3533F1D377DAA005CAFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAF353411D377DAA005CAFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JWFPSControlDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudm.JWFPSControlDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAF353421D377DAA005CAFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JWFPSControlDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudm.JWFPSControlDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAF353441D377DAA005CAFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JWFPSControlDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudm.JWFPSControlDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWFPSControlDemo.app/JWFPSControlDemo";
+			};
+			name = Debug;
+		};
+		DAF353451D377DAA005CAFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JWFPSControlDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudm.JWFPSControlDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWFPSControlDemo.app/JWFPSControlDemo";
+			};
+			name = Release;
+		};
+		DAF353471D377DAA005CAFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JWFPSControlDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudm.JWFPSControlDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JWFPSControlDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DAF353481D377DAA005CAFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JWFPSControlDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudm.JWFPSControlDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JWFPSControlDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAF3530E1D377DAA005CAFD2 /* Build configuration list for PBXProject "JWFPSControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF3533E1D377DAA005CAFD2 /* Debug */,
+				DAF3533F1D377DAA005CAFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF353401D377DAA005CAFD2 /* Build configuration list for PBXNativeTarget "JWFPSControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF353411D377DAA005CAFD2 /* Debug */,
+				DAF353421D377DAA005CAFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAF353431D377DAA005CAFD2 /* Build configuration list for PBXNativeTarget "JWFPSControlDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF353441D377DAA005CAFD2 /* Debug */,
+				DAF353451D377DAA005CAFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAF353461D377DAA005CAFD2 /* Build configuration list for PBXNativeTarget "JWFPSControlDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF353471D377DAA005CAFD2 /* Debug */,
+				DAF353481D377DAA005CAFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAF3530B1D377DAA005CAFD2 /* Project object */;
+}
